@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #21243d;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
