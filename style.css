@@ -26,3 +26,7 @@ a{
     text-decoration: none;
     color: white;
 }
+.hero-image{
+    width: 100%;
+    position: relative;
+}
