@@ -116,3 +116,33 @@ color: #ffffff;
 font-weight: 400;
 text-align: center;
 }
+
+.main-sushi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd17e;
+    padding: 40px;
+    gap: 240px;
+}
+
+.sushi-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.sushi-text{
+    padding-top: 40px;
+    font-weight: 600;
+    color: #21243d;
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.sushi-text > h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-wrap: wrap;
+}
