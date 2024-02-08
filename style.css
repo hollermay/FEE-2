@@ -142,7 +142,85 @@ text-align: center;
 
 .sushi-text > h2{
     font-size: 48px;
-    font-weight: 700;
+    font-weight:bolder;
     margin-bottom: 40px;
     text-wrap: wrap;
+}
+
+.sushi-text > p{
+    margin-bottom: 40px;
+}
+    
+.sushi-btn{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    width: 322px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: #21243d;
+    border: transparent;
+    cursor: pointer;
+}
+
+.stats-menu{
+    margin-top: -5px;
+    background-color: #21243d;
+    align-items: center;
+    font-family: 'Montserrat,'sans-serif;
+    padding: 20px;
+}
+
+
+.stats-card{
+    gap: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.stats-inner-card{
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat','sans-serif';
+    color: white;
+    width: 274px;
+    height: 275px;
+    border-radius: 138px;
+    border: 5px solid#ffffff;
+    padding-top: 100px;
+}
+
+.stats-menu-text{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.stats-menu-text >h2{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    text-wrap: wrap;
+}
+
+.stats-menu-text > p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.stats-inner-card > h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.stats-inner-card > p{
+    font-size: 20px;
+    font-weight: 400;
 }
