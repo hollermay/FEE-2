@@ -225,9 +225,7 @@ text-align: center;
     font-weight: 700;
 }
 
-.chef{
-    
-}
+
 
 .chefbg{
     position: relative;
@@ -272,3 +270,123 @@ text-align: center;
     font-size: 48px;
     font-weight: 600;
 }
+
+.newsletter{
+    margin-top: -5px;
+    padding: 60px;
+    background-color: #ffd17e;
+}
+
+.newscontent{
+    color: white;
+    font-family: 'Montserrat','sans-serif';
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.newscontent > h2{
+    font-size: 48px;
+    color: #21243d;
+    font-weight: 600;
+    margin-bottom: 90px;
+}
+
+.newscontent > p{
+    font-size: 25px;
+    margin-bottom: 45px;
+    color: #21243d;
+
+}
+
+.searchBox {
+    margin-left: 300px;
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom:50px;
+  }
+  
+  .searchButton {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #21243d;
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  
+  .footer{
+    padding: 40px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .footer-content{
+    padding: 40px;
+  }
+  .footer-content >p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .footer-content >h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .footer-content > ul > li{
+    cursor: pointer;
+  }
+
+  ul{
+    list-style: none;
+    text-align: left;
+  }
+  
+
+.social-media-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+    
