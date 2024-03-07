@@ -420,6 +420,14 @@ text-align: center;
     top:90%;
 
 }
+.popular-shape-4{
+    position: absolute;
+    height: 160px;
+    width: 140px;
+    right: 0;
+    top: 100%;
+
+}
 
 .main-shape{
     position: absolute;
@@ -494,4 +502,45 @@ text-align: center;
     width: 80px;
     left: 5%;
     top:70%;
+}
+
+.news-shape{
+    position: absolute;
+    height: 240px;
+    width: 200px;
+    top: 130%;
+    right: 20%;
+
+}
+
+.news-shape-2{
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    left: 20%;
+    top: 150%;
+}
+
+.news-shape-3{
+    position: absolute;
+    height: 120px;
+    width: px;
+    left: 5%;
+    top:70%;
+}
+
+.news-shape-4{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    right: 5%;
+    top:100%;
+}
+
+.news-shape-5{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 5%;
+    top:200%;
 }
