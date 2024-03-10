@@ -548,29 +548,63 @@ text-align: center;
 @media only screen and (max-width: 768px) {
     img{
         width: 100%;
-        height: 300%;
+        height: 300px;
         position: relative;
+        background-size: cover;;
     }
 
-        nav {
-            flex-direction: column;
+    nav {
+            flex-direction: row;
+            gap: 200px;
             justify-content: center;
-            align-items: flex-start;
+            align-items: flex;
             padding: 20px;
-        }
+    }
     h1{
         font-family: 'Montserrat', sans-serif;
-        text-align: left;
+        text-align: center;
         font-size: 32px;
         margin-bottom: 5px;
     }
-    .navbar-nav{
-        display: flex;
-        justify-content: space-around;
-        width: 30%;
-        list-style: none;
-        color: white;
-        
+    .navbar-nav {
+        display: none;
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-search{
+        display: none;
+    }
+    .navbar-nav li {
+        display: block;
+    }
+
+    .navbar-nav li a {
+        display: block;
+        padding: 10px 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .navbar-nav li a:hover {
+        background-color: #f9f9f9;
+    }
+
+    .dropdown-toggle {
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        border: none;
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 5px;
+        cursor: pointer;
     }
     a{
         text-decoration: none;
@@ -580,41 +614,37 @@ text-align: center;
         background-color: #21243d;
     }
     .hero-content{
-        position: absolute;
         color: rgb(255, 255, 255);
-        text-align: left;
+        text-align: center;
+        justify-content: center;
         font-family: 'Montserrat', sans-serif;
         background-color: transparent;
-        top: 20%;
-        left: 5%;
     }
     .bg{
-        position: absolute;
         width: 100%;
         height: 100%;
         opacity: 0.5;
     }
     
     .order{
-        position: absolute;
-        top: 60%;
-        left: 5%;
-        padding: 20px;
+        align-items: center;
+        padding: 5px;
         text-align: center;
         color: white;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: large;
-        width: 122px;
-        height: 45px;
+        font-size: 15px;
+        width: 150px;
+        height: 50px;
         border-radius: 33px;
         background-color: #21243d;
         border: transparent;
         cursor: pointer;
+        margin-left: 80px;
+        margin-top: -90px;
     }
     
     .popular-menu{
-        margin-top: -5px;
+        margin-top: 10px;
         background-color: #21243d;
         align-items: center;
         font-family: 'Montserrat,'sans-serif;
@@ -663,14 +693,11 @@ text-align: center;
     }
     
     .main-sushi{
-        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: #ffd17e;
-        padding: 40px;
-        gap: 240px;
     }
     
     .sushi-img{
@@ -687,15 +714,11 @@ text-align: center;
     }
     
     .sushi-text > h2{
-        font-size: 48px;
+        font-size: 32px;
         font-weight:bolder;
-        margin-bottom: 40px;
         text-wrap: wrap;
     }
     
-    .sushi-text > p{
-        margin-bottom: 40px;
-    }
         
     .sushi-btn{
         padding: 20px;
@@ -703,9 +726,9 @@ text-align: center;
         color: white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        font-size: large;
-        width: 322px;
-        height: 65px;
+        font-size: 10px;
+        width: 150px;
+        height: 30px;
         border-radius: 33px;
         background-color: #21243d;
         border: transparent;
@@ -733,12 +756,12 @@ text-align: center;
     
     .stats-inner-card{
         align-items: center;
-        text-align: center;
+        text-align: center;;
         font-family: 'Montserrat','sans-serif';
         color: white;
-        width: 274px;
-        height: 275px;
-        border-radius: 138px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
         border: 5px solid#ffffff;
         padding-top: 100px;
     }
@@ -747,6 +770,7 @@ text-align: center;
         padding-top: 40px;
         color: white;
         text-align: center;
+        align-items: center;
         font-family: 'Montserrat', 'sans-serif';
     }
     
@@ -779,10 +803,10 @@ text-align: center;
     
     .rectbox{
         position: absolute;
-        top: 811%;
+        top: 581%;
         left: 0;
         width: 100%;
-        height: 83%;
+        height: 62.3%;
         background-color: #21243deb;
     }
     
@@ -799,7 +823,7 @@ text-align: center;
         font-family: 'Montserrat','sans-serif';
         padding: 25px;
         position: absolute;
-        top: 820%;
+        top: 581%;
         left:0;
         align-items: center;
         text-align: center;
@@ -937,78 +961,20 @@ text-align: center;
       background-color: white;
     }
         
-    .popular-shape{
-        display: none;
-    }
-    
-    .popular-shape-2{
-        display: none;
-    
-    }
-    
-    .popular-shape-3{
-        display: none;
-    
-    }
-    .popular-shape-4{
-        display: none;
-    
-    }
-    
-    .main-shape{
-        display: none;
-    
-    }
-    
-    .main-shape-2{
-        display: none;
-    }
-    
-    .main-shape-3{
-        display: none;
-    }
-    
-    .main-shape-4{
-        display: none;
-    }
-    
-    .stats-shape{
-       display: none;
-    }
-    
-    .stats-shape-2{
-        display: none;
-    }
-    
-    .stats-shape-3{
-        display: none;
-    }
-    
-    .stats-shape-4{
-        display: none;
-    }
-    
-    .stats-shape-5{
-        display: none;
-    }
-    
-    .news-shape{
-        display: none;
-    
-    }
-    
-    .news-shape-2{
-       display: none;
-    }
-    
-    .news-shape-3{
-        display: none;
-    }
-    
-    .news-shape-4{
-        display: none;
-    }
-    
+    .popular-shape, .popular-shape-2, .popular-shape-3,.popular-shape-4,
+    .main-shape,
+    .main-shape-2,
+    .main-shape-3,
+    .main-shape-4,
+    .stats-shape,
+    .stats-shape-2,
+    .stats-shape-3,
+    .stats-shape-4,
+    .stats-shape-5,
+    .news-shape,
+    .news-shape-2,
+    .news-shape-3,
+    .news-shape-4,
     .news-shape-5{
         display: none;
     }
