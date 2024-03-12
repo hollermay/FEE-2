@@ -31,6 +31,14 @@ h1{
     color: white;
     
 }
+
+.navbar-search{
+    width: 20px;
+    height: 20px;;
+}
+.dropdown-toggle{
+    display: none;
+}
 a{
     text-decoration: none;
     color: white;
@@ -87,7 +95,12 @@ a{
     text-align: center;
     font-family: 'Montserrat', 'sans-serif';
 }
-
+.popular-menu-text> h2{
+    font-size: 42px;
+}
+.popular-menu-text> p{
+    font-size: 25px;
+}
 .menu-img{
     width: 300px;
     height: 300px;
@@ -133,6 +146,11 @@ text-align: center;
 }
 
 .sushi-img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.sushi-img-2{
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -239,10 +257,10 @@ text-align: center;
 
 .rectbox{
     position: absolute;
-    top: 391%;
+    top: 403%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 102%;
     background-color: #21243deb;
 }
 
@@ -329,18 +347,6 @@ text-align: center;
     border: 0;
     display: inline-block;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  }
-  /*hover effect*/
-  .order :hover {
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
-    transform: translateY(-3px);
-  }
-  /*button pressing effect*/
-  .order :active {
-    box-shadow: none;
-    transform: translateY(0);
   }
   
   .searchInput {
@@ -507,8 +513,8 @@ text-align: center;
 .news-shape{
     position: absolute;
     height: 240px;
-    width: 200px;
-    top: 130%;
+    width: 220px;
+    top: 228%;
     right: 20%;
 
 }
@@ -518,7 +524,7 @@ text-align: center;
     height: 20px;
     width: 90px;
     left: 20%;
-    top: 150%;
+    top: 220%;
 }
 
 .news-shape-3{
@@ -526,7 +532,7 @@ text-align: center;
     height: 120px;
     width: px;
     left: 5%;
-    top:70%;
+    top:565%;
 }
 
 .news-shape-4{
@@ -534,7 +540,7 @@ text-align: center;
     height: 50px;
     width: 100px;
     right: 5%;
-    top:100%;
+    top:170%;
 }
 
 .news-shape-5{
@@ -639,8 +645,8 @@ text-align: center;
         background-color: #21243d;
         border: transparent;
         cursor: pointer;
-        margin-left: 80px;
-        margin-top: -90px;
+        margin-left: 140px;
+        margin-top: -160px;
     }
     
     .popular-menu{
@@ -704,6 +710,14 @@ text-align: center;
         width: 150px;
         height: 150px;
         border-radius: 50%;
+        margin-bottom: -150px;
+    }
+
+    .sushi-img-2{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: -150px;
     }
     .sushi-text{
         padding-top: 10px;
@@ -803,10 +817,10 @@ text-align: center;
     
     .rectbox{
         position: absolute;
-        top: 581%;
+        top: 444%;
         left: 0;
         width: 100%;
-        height: 62.3%;
+        height: 53%;
         background-color: #21243deb;
     }
     
@@ -823,7 +837,7 @@ text-align: center;
         font-family: 'Montserrat','sans-serif';
         padding: 25px;
         position: absolute;
-        top: 581%;
+        top: 450%;
         left:0;
         align-items: center;
         text-align: center;
